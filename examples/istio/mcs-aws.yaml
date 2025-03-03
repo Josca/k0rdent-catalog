@@ -1,0 +1,16 @@
+apiVersion: k0rdent.mirantis.com/v1alpha1
+kind: MultiClusterService
+metadata:
+  name: istio
+spec:
+  clusterSelector:
+    matchLabels:
+      type: aws
+  serviceSpec:
+    services:
+      - template: istio-base-1-24-3
+        name: istiobase
+        namespace: istio
+      - template: istio-istiod-1-24-3
+        name: istioistiod
+        namespace: istio
