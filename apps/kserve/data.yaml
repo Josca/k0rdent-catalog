@@ -1,0 +1,21 @@
+tags:
+    - AI/Machine Learning
+title: KServe
+summary: "Highly scalable and standards based Model Inference Platform on Kubernetes for Trusted AI."
+logo: "./assets/knative_logo.svg"
+description: |
+   TODO
+# support_link:
+install_code: |
+    ~~~bash
+    TODO
+    ~~~
+verify_code: |
+    ~~~bash
+    TODO
+    ~~~
+deploy_code: |
+    ~~~yaml
+    TODO
+    ~~~
+doc_link: https://kserve.github.io/website/master/
