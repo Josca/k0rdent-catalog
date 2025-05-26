@@ -143,6 +143,7 @@ jobs:
       - name: Install Helm
         if: env.DEPLOY_CHART == 'true' || env.DEPLOY_MULTICLUSTERSERVICE == 'true'
         run: |
+          export HELM_INSTALL_VERSION="v3.16.1"
           curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
       - name: Test - Install example Helm chart
