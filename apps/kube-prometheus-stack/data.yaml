@@ -32,3 +32,4 @@ deploy_code: |
             namespace: kube-prometheus-stack
     ~~~
 doc_link: https://prometheus.io/community/
+
