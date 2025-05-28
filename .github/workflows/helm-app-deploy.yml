@@ -32,6 +32,7 @@ on:
 jobs:
   detect-tested-apps:
     runs-on: ubuntu-latest
+    environment: prod
     outputs:
       changed_folders: ${{ steps.get-tested-apps.outputs.folders }}
     steps:
