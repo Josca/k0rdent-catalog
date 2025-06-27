@@ -13,7 +13,7 @@
   {{ fail "Invalid 'chart' variable format (empty chart version): must be 'name:version' (e.g. 'ingress-nginx:4.11.5')" }}
 {{- end }}
 
-apiVersion: k0rdent.mirantis.com/v1beta1
+apiVersion: k0rdent.mirantis.com/{{ $.Values.k0rdentApiVersion }}
 kind: ServiceTemplate
 metadata:
   name: {{ $.Values.prefix }}{{ $chartName }}-{{ $chartVersion | replace "." "-" }}

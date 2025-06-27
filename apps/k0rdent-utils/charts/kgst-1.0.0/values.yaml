@@ -4,9 +4,10 @@ repository:
   
   # Valid helm chart url: e.g. 'https://grafana.github.io/helm-charts'
   url: oci://ghcr.io/k0rdent/catalog/charts
-  
-# chart name in format "name:version"
-# e.g.: "ingress-nginx:4.11.5"
+
+# Service template referenced Helm chart.
+# Expected format: "name:version"
+# E.g., "ingress-nginx:4.11.5"
 chart:
 
 # Service template prefix (optional)
@@ -16,3 +17,6 @@ prefix: ""
 
 # Namespace of service template and helm repo, equals to release namespace by default.
 namespace: ""
+
+# k0rdent API version used in ServiceTemplate object.
+k0rdentApiVersion: "v1beta1"
