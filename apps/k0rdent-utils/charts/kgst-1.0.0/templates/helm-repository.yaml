@@ -1,3 +1,8 @@
+{{- $repoType := "default" }}
+{{- if hasPrefix "oci" .Values.repository.url }}
+  {{- $repoType = "oci" }}
+{{- end }}
+
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: HelmRepository
 metadata:
@@ -8,5 +13,5 @@ metadata:
   annotations:
     helm.sh/resource-policy: keep
 spec:
-  type: {{ .Values.repository.type }}
+  type: {{ $repoType }}
   url: {{ required "A valid 'helm.repository.url' value is required!" .Values.repository.url }}

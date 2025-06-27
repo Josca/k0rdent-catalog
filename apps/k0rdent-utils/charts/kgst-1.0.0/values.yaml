@@ -5,9 +5,6 @@ repository:
   # Valid helm chart url: e.g. 'https://grafana.github.io/helm-charts'
   url: oci://ghcr.io/k0rdent/catalog/charts
   
-  # Valid values: oci, default
-  type: oci
-  
 # chart name in format "name:version"
 # e.g.: "ingress-nginx:4.11.5"
 chart:
