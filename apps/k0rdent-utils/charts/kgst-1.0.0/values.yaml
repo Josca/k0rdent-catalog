@@ -1,4 +1,4 @@
-repository:
+repo:
   # Helm repository name (HelmRepository resource)
   name: "k0rdent-catalog"
   

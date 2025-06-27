@@ -28,4 +28,4 @@ spec:
       interval: 10m0s
       sourceRef:
         kind: HelmRepository
-        name: {{ $.Values.repository.name | default $.Release.Name }}
+        name: {{ $.Values.repo.name | default $.Release.Name }}
