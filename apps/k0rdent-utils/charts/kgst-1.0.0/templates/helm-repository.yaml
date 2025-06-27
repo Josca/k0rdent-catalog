@@ -3,6 +3,18 @@
   {{- $repoType = "oci" }}
 {{- end }}
 
+{{- if eq .Values.repository.name "k0rdent-catalog" }}
+  {{- if not (eq "oci://ghcr.io/k0rdent/catalog/charts" .Values.repository.url) }}
+    {{ fail "Please set 'repository.name' as 'k0rdent-catalog' is reserved for 'oci://ghcr.io/k0rdent/catalog/charts'" }}
+  {{- end }}
+{{- end }}
+
+{{- if eq .Values.repository.name "k0rdent-enterprise-catalog" }}
+  {{- if not (eq "oci://registry.mirantis.com/k0rdent-enterprise-catalog" .Values.repository.url) }}
+    {{ fail "Please set 'repository.name' as 'k0rdent-enterprise-catalog' is reserved for 'oci://registry.mirantis.com/k0rdent-enterprise-catalog'" }}
+  {{- end }}
+{{- end }}
+
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: HelmRepository
 metadata:
