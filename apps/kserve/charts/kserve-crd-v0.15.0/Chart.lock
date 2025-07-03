@@ -1,6 +1,6 @@
 dependencies:
 - name: kserve-crd
   repository: oci://ghcr.io/kserve/charts
-  version: v0.15.0
-digest: sha256:5e4f098c0f0d1f6c733a41f5ffa58459eaa285cf70a6a0e578c8d504034fd875
-generated: "2025-04-25T16:57:01.480439+02:00"
+  version: v0.15.2
+digest: sha256:2ed228ad288ca128a2f02d8b2c6f40d90e82705f5a65b8aebf0923fb1a1bfa36
+generated: "2025-07-03T11:51:39.39532099Z"
