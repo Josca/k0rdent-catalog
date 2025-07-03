@@ -5,5 +5,5 @@ type: application
 version: 1.5.10
 dependencies:
   - name: clearml-serving
-    version: 1.5.10
+    version: 1.5.11
     repository: https://clearml.github.io/clearml-helm-charts

@@ -1,6 +1,6 @@
 dependencies:
 - name: clearml-serving
   repository: https://clearml.github.io/clearml-helm-charts
-  version: 1.5.10
-digest: sha256:99843b8d0920a4e5351bae51aa55a350853348110aa291279cfa19f0a3d676e9
-generated: "2025-04-11T22:42:40.204904+02:00"
+  version: 1.5.11
+digest: sha256:b5c9f99a676e4f2eb68d42373126b691cff29ffbddb2ba7a16653e1feaa3fb21
+generated: "2025-07-03T11:41:37.274252931Z"
