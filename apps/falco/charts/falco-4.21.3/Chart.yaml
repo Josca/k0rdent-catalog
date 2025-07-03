@@ -5,5 +5,5 @@ type: application
 version: 4.21.3
 dependencies:
   - name: falco
-    version: 4.21.3
+    version: 6.0.2
     repository: https://falcosecurity.github.io/charts/
