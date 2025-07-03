@@ -5,5 +5,5 @@ type: application
 version: 3.4.4
 dependencies:
   - name: cloudcasa
-    version: 3.4.4
+    version: 3.4.5
     repository: https://catalogicsoftware.github.io/cloudcasa-helmchart/
