@@ -5,5 +5,5 @@ type: application
 version: 1.14.4
 dependencies:
   - name: dapr
-    version: 1.14.4
+    version: 1.14.5
     repository: https://dapr.github.io/helm-charts/
