@@ -5,5 +5,5 @@ type: application
 version: 0.3.13
 dependencies:
   - name: kagent-crds
-    version: 0.3.13
+    version: 0.3.19
     repository: oci://ghcr.io/kagent-dev/kagent/helm
