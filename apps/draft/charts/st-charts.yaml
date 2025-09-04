@@ -1,0 +1,7 @@
+st-charts:
+  - name: appchart
+    version: chartversion
+    dependencies:
+      - name: appchart
+        version: chartversion
+        repository: https://zilliztech.github.io/milvus-helm/

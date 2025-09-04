@@ -1,0 +1,20 @@
+tags:
+  # - Database
+  - AI/Machine Learning
+title: "Draft"
+summary: "TODO."
+logo: "./assets/icon.svg" # https://raw.githubusercontent.com/milvus-io/artwork/master/stacked/color/milvus-stacked-color.svg
+created: "2025-08-29T00:00:00Z"
+description: |
+  TODO.
+# support_link: TODO
+charts:
+  - name: appchart
+    versions: ['chartversion']
+deploy_code: |
+  ~~~yaml
+  TODO
+  ~~~
+doc_link: TODO
+
+# test_wait_for_pods: "milvus-standalone-"
