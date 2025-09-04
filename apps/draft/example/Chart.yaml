@@ -3,6 +3,6 @@ name: example
 type: application
 version: 1.0.0
 dependencies:
-  - name: opensearch
-    version: 3.3.2
+  - name: draftchart
+    version: 1.2.3-version
     repository: oci://ghcr.io/k0rdent/catalog/charts

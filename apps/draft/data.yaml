@@ -1,0 +1,36 @@
+tags: # choose a proper tags...
+  - 'AI/Machine Learning'
+  - 'Application Runtime'
+  - 'Authentication'
+  - 'Backup and Recovery'
+  - 'CI/CD'
+  - 'Container Registry'
+  - 'Database'
+  - 'Developer Tools'
+  - 'Drivers and plugins'
+  - 'Monitoring'
+  - 'Networking'
+  - 'Security'
+  - 'Serverless'
+  - 'Storage'
+title: DraftApp
+summary: "TODO TODO TODO TODO TODO TODO."
+logo: "./assets/icon.svg" # https://raw.githubusercontent.com/milvus-io/artwork/master/stacked/color/milvus-stacked-color.svg
+created: "2026-01-01T00:00:00Z"
+description: |
+  TODO.
+# support_link: TODO
+charts:
+  - name: draftchart
+    versions: ['1.2.3-version']
+
+# override generated "deploy_code"
+# deploy_code: |
+#   ~~~yaml
+#   TODO
+#   ~~~
+doc_link: TODO
+
+# test_wait_for_pods: "milvus-standalone-"
+# test_wait_for_running: true # (default: false) wait for Running, instead of Ready (e.g. due to proprietery API dependency etc)
+# test_wait_for_creating: true # (default: false) e.g. when pulling a huge image (finops-agent)
