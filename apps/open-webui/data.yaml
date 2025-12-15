@@ -2,7 +2,7 @@ tags:
   - AI/Machine Learning
 title: "Open WebUI"
 summary: "A User-Friendly Web Interface for Chat Interactions."
-logo: "https://raw.githubusercontent.com/open-webui/open-webui/main/static/favicon.png"
+logo: "./assets/icon.png" # https://github.com/open-webui/open-webui/blob/6f1486ffd0cb288d0e21f41845361924e0d742b3/static/favicon.png
 created: "2025-03-12T08:16:55Z"
 description: |
     Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline.
@@ -10,7 +10,7 @@ description: |
     a powerful AI deployment solution.
 
     <div>
-    ![](https://docs.openwebui.com/assets/images/demo-d3952c8561c4808c1d447fc061c71174.gif){ width="700" }
+    ![](https://github.com/open-webui/open-webui/blob/6f1486ffd0cb288d0e21f41845361924e0d742b3/demo.gif?raw=true){ width="700" }
     </div>
 charts:
   - name: open-webui
