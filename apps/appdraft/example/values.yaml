@@ -1,0 +1,8 @@
+appdraft:
+  appdraft:
+    persistence:
+      enabled: false
+    extraEnvs:
+      - name: appdraft_INITIAL_ADMIN_PASSWORD
+        value: xyIah87x!xzQ
+    singleNode: true

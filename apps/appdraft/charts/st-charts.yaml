@@ -1,0 +1,5 @@
+st-charts:
+- name: appdraft
+  dep_name: appdraft
+  version: 1.2.3
+  repository: https://appdraft.repositor

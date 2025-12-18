@@ -1,0 +1,35 @@
+tags:
+  - Storage
+title: appdraft
+summary: "Open Source Search and Analytics Suite."
+logo: "./assets/icon.svg" # https://appdraft.org/trademark-brand-policy/
+created: "2025-12-02T00:00:00Z"
+description: |
+  appdraft is a community-driven, open-source search and analytics suite derived from
+  Elasticsearch and Kibana.
+
+  It consists of:
+
+   - appdraft: A distributed, highly scalable search engine that is used for full-text
+     search, log analytics, security monitoring, and application monitoring.
+   - appdraft Dashboards: A visualization tool that lets users analyze and visualize data
+     stored in appdraft through interactive dashboards.
+
+  appdraft provides essential features like security, fine-grained access control,
+  anomaly detection, and alerting, making it a popular choice for enterprise-grade data
+  ingestion and analysis, often serving as the data backbone for observability and
+  security platforms.
+
+charts:
+  - name: appdraft
+    versions: ['1.2.3']
+
+doc_link: https://docs.appdraft.org/latest/
+
+test_wait_for_pods: "appdraft-cluster-master-0"
+
+validated_amd64: 'y'
+validated_aws: 'y'
+validated_azure: 'y'
+validated_arm64: 'y' # aws t4g.medium
+validated_local: 'y'
