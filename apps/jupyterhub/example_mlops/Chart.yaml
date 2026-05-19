@@ -1,0 +1,20 @@
+apiVersion: v2
+name: example
+type: application
+version: 1.0.0
+dependencies:
+  - name: jupyterhub
+    version: 4.3.5
+    repository: oci://ghcr.io/k0rdent/catalog/charts
+    solution_role: Data Science Platform
+    solution_why: Multi-user Jupyter notebook environment for AI and ML workloads
+  - name: traefik
+    version: 39.0.8
+    repository: oci://ghcr.io/k0rdent/catalog/charts
+    solution_role: Ingress Controller
+    solution_why: Routes external traffic to Kubernetes services with TLS support
+  - name: ollama
+    version: 1.54.0
+    repository: oci://ghcr.io/k0rdent/catalog/charts
+    solution_role: LLM Runtime
+    solution_why: Runs and serves open-source AI models on Kubernetes
