@@ -21,3 +21,45 @@ ollama:
     models:
       pull: [smollm:135m]
       run: [smollm:135m]
+
+cert-manager:
+  cert-manager:
+    crds:
+      enabled: true
+
+kserve-resources:
+  kserve-resources:
+    kserve:
+      controller:
+        deploymentMode: Standard # Knative
+        gateway:
+          disableIstioVirtualHost: true
+          disableIngressCreation: true
+
+kserve-runtime-configs:
+  kserve-runtime-configs:
+    kserve:
+      servingruntime:
+        enabled: true
+
+raw:
+  raw:
+    resources:
+    - apiVersion: serving.kserve.io/v1beta1
+      kind: InferenceService
+      metadata:
+        name: sklearn-iris
+        namespace: kserve
+      spec:
+        predictor:
+          model:
+            modelFormat:
+              name: sklearn
+            storageUri: gs://kfserving-examples/models/sklearn/1.0/model
+            resources:
+              requests:
+                cpu: "100m"
+                memory: "512Mi"
+              limits:
+                cpu: "1"
+                memory: "1Gi"
